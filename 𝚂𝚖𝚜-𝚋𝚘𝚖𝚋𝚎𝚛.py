@@ -82,10 +82,10 @@ send_message(number, otpcode, colors[0])
 
 #end
 password = str(getpass.getpass("OTP : ")) 
-if password == "Nahid":
+if password == "":
     print("password error. Try agin")
 
-while password == "Nahid":
+while password == "":
     password = str(getpass.getpass("password : "))  # Prompting for password again until a non-empty value is entered
 
 while True:
